@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+   /* background-color: blueviolet;*/
+    width: 85vw;
+}
+
+
+.sidebar{
+    position: absolute;
+    background-color:rgb(203, 195, 195);
+    /*width: 15vw;*/
+    font-family: 'Andika', sans-serif;
+    height: 100vh;
+    transition: transform 0.5s ease-in;
+}
+.sidebar nav{
+    padding: 20px;
+}
+.sidebarGo{
+    transform: translate(-400px, 0px);
+    position: absolute;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+}
+.sidebar nav li a{
+     text-decoration: none;
+     color: black;
+}
+.container{
+    display:flex;
+}
+ 
+.infocontainer{
+    /*background-color: chartreuse;*/
+    height: 65vh;
+    width: 85vw;
+    
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    font-family: 'Andika', sans-serif;
+padding: 80px;
+}
+.hello{
+font-size: 50px;
+font-family: 'Source Code Pro', monospace;
+}
+.Name{
+font-size: 35px;
+font-weight: bold;
+font-family: 'Andika', sans-serif;
+}
+.About{
+font-size: 30px;
+font-family: 'Source Code Pro', monospace;
+}
+.MoreAbout {
+font-size: 20px;
+margin:10px;
+}
+.buttons{
+    margin-top: 30px;
+}
+.buttons button{
+padding: 12px;
+border-radius: 30px;
+color: white;
+background-color: rgb(97, 97, 253);
+margin: 0 3px;
+cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: rgb(97, 97, 253);
+
+}
+.devPic img{
+    height: 70vh;
+    padding: 180px;
+}
+
+
+
+
+
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 90px;
+    font-family: 'Andika', sans-serif;
+    margin: 0 88px;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+.contactform form div{
+padding: 10px 0;
+
+}
+#emailHelp{
+    font-size: 10px;
+    color: red;
+    margin: 0 5px;
+}
+.blogItem{
+    margin-top: 20px;
+    font-family: 'Andika', sans-serif;
+}
+.blogItem p{
+    margin-top: 10px;
+    font-family: 'Andika', sans-serif;
+}
+.blogcontainer{
+margin: 0 88px;
+}
+.skills{
+    padding: 35px;
+    font-size: 20px;
+}
+.skills p{
+    display: flex;
+   margin-top: 10px;
+   font-size: 20px;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+margin-left: 145px;
+}
+
+
+
+
